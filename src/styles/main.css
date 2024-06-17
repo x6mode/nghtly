@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Unbounded:wght@200..900&display=swap');
+
+:root {
+  --c-theme-main: rgba(0, 119, 255, 0.25);
+  --ch-theme-main: rgba(0, 119, 255, 0.8);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: default;
+  border: none;
+  color: whitesmoke;
+  font-family: 'Unbounded', sans-serif;
+}
+
+body {
+  background: rgba(16,16,18,1);
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all .3s linear;
+  border-radius: 7px;
+  background: var(--c-theme-main);
+}
+
+.btn-hover:hover {
+  background: var(--ch-theme-main);
+}

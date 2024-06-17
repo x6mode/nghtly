@@ -1,0 +1,59 @@
+
+.marquee-gradient {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  left: 5%;
+  z-index: 7;
+  background: linear-gradient(90deg, rgba(16,16,18,1) 0%, rgba(9,9,121,0) 15%, rgba(9,9,121,0) 85%, rgba(16,16,18,1) 100%);
+}
+
+.marquee-cont {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 15px 5%;
+};
+
+.marquee {
+  position: absolute;
+  z-index: 6;
+  top: 0;
+}
+
+.before-spacer-marque {
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.marquee .buyer-card {
+  width: 195px;
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.marquee .buyer-card > h1 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.marquee .buyer-card > p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(128, 128, 128);
+}
+
+.marquee .buyer-card > img {
+  background: rgba(128, 128, 128, 0.212);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}

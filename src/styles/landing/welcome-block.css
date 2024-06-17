@@ -1,0 +1,56 @@
+.welcome-block {
+  display: flex;
+  padding: 15px 5%;
+  align-items: flex-start;
+}
+
+.welcome-block > .left, .right {
+  width: 50%;
+  max-height: 400px;
+}
+
+.welcome-block > .left > .slogan {
+  font-weight: 600;
+  font-size: 3rem;
+  text-wrap: nowrap;
+}
+
+.welcome-block > .left > .under-welcome {
+  margin-top: 1.1rem;
+  color: rgb(121, 118, 113, 1);
+  margin-bottom: 1.7rem;
+  font-size: 1.1rem;
+}
+
+.welcome-block .statistic-online {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  height: 60px;
+}
+
+.welcome-block .statistic-online > img {
+  height: 69%;
+}
+
+.welcome-block > .right {
+  position: relative;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-block > .right > img {
+  width: 80%;
+  max-width: 582px;
+  position: relative;
+  z-index: 10;
+}
+
+.welcome-block > .right > .gradient {
+  background: radial-gradient(circle, rgba(0, 119, 255, 0.4) -33%, transparent 70%);
+  aspect-ratio: 1 / 1;
+  height: 150%;
+  position: absolute;
+}

@@ -1,0 +1,87 @@
+.hr-col {
+  padding: 2rem 10% 0 5%;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgba(245, 245, 245, 0.205);
+}
+
+.company {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 1rem;
+}
+
+.company > .info > h1 {
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-bottom: 0.1rem;
+}
+
+.company > .info > p {
+  font-size: 1.1rem;
+  color: rgba(245, 245, 245, 0.363);
+}
+
+.company > img {
+  width: auto;
+  height: 100%;
+}
+
+.twice-column {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.twice-column > h1{
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.twice-column > .navigation-sn > .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: right;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  padding: .3rem;
+  transition: all .2s linear;
+  padding-left: 1rem;
+}
+
+.twice-column > .navigation-sn > .social > div {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+}
+
+.twice-column > .navigation-sn > .social > div > i {
+  font-size: 1.8rem;
+}
+
+.twice-column > .navigation-sn > .social > p {
+  font-size: 1.2rem;
+}
+
+.twice-column > .navigation-sn > .social:hover {
+  background: rgba(128, 128, 128, 0.378);
+}
+
+.dscgg {
+  background: #5662f6;
+}
+
+.vkcom {
+  background: #0077ff;
+}
+
+.telegrm {
+  background: #29a9eb;
+}
